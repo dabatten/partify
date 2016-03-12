@@ -1,11 +1,16 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1.ui.icon.header.center.aligned= title
+    i.music.icon
+    div.content 
+        div.sub.header Welcome to #{title}
   
-  input#artistQuery.ui.input(type='text')
-  button#search.ui.button Search for Artist
+  div.ui.container
+    div.ui.icon.input    
+        input#artistQuery(type='text')
+        i.search.icon
+    button#search.ui.button.primary Search for Artist
   
   script(src='javascripts/main.js')
   

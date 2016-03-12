@@ -228,14 +228,14 @@
 
 /* Inverted Arrow Color */
 .ui.inverted.bottom.popup:before {
-  background: #1B1C1D;
+  background: #000000;
 }
 .ui.inverted.right.center.popup:before,
 .ui.inverted.left.center.popup:before {
-  background: #1B1C1D;
+  background: #000000;
 }
 .ui.inverted.top.popup:before {
-  background: #1B1C1D;
+  background: #000000;
 }
 
 
@@ -318,7 +318,7 @@
 
 /* Inverted colors  */
 .ui.inverted.popup {
-  background: #1B1C1D;
+  background: #000000;
   color: #FFFFFF;
   border: none;
   box-shadow: none;
@@ -328,7 +328,7 @@
   color: #FFFFFF;
 }
 .ui.inverted.popup:before {
-  background-color: #1B1C1D;
+  background-color: #000000;
   box-shadow: none !important;
 }
 

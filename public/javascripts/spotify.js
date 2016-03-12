@@ -35,4 +35,25 @@ var similarArtists = function(artistId, callback){
     });
 }
 
+//remove all explicit songs from a list of tracks
+var filterExplicit = function(tracklist){
+    tracklist.filter(function(t){
+        return !(t.explicit)
+    })
+}
+
+//sort tracks most-popular to least-popular
+var sortTrackByPopularity = function(tracklist){
+    tracklist.sort(function(a,b){
+        return b.popularity - a.popularity;
+    })
+}
+
+//sort tracks least-to-most popular
+var sortTrackByDeepCuts = function(tracklist){
+    tracklist.sort(function(a,b){
+        return a.popularity - b.popularity;
+    })
+}
+
 

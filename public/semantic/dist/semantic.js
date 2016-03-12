@@ -4114,6 +4114,7 @@ $.fn.dimmer.settings = {
 };
 
 })( jQuery, window, document );
+
 /*!
  * # Semantic UI 2.1.8 - Dropdown
  * http://github.com/semantic-org/semantic-ui/
@@ -11806,6 +11807,7 @@ $.fn.progress.settings = {
 
 
 })( jQuery, window, document );
+
 /*!
  * # Semantic UI 2.1.8 - Rating
  * http://github.com/semantic-org/semantic-ui/
@@ -14504,6 +14506,7 @@ $.fn.shape.settings = {
 
 
 })( jQuery, window, document );
+
 /*!
  * # Semantic UI 2.1.8 - Sidebar
  * http://github.com/semantic-org/semantic-ui/
@@ -16434,6 +16437,7 @@ $.fn.sticky.settings = {
 };
 
 })( jQuery, window, document );
+
 /*!
  * # Semantic UI 2.1.8 - Tab
  * http://github.com/semantic-org/semantic-ui/
