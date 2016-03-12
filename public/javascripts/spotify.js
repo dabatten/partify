@@ -1,3 +1,5 @@
+/* Functions for using the Spotify API */
+
 //get top tracks for an artist
 var fetchTopTracks = function (artistId, callback) {
     $.ajax({
@@ -32,3 +34,5 @@ var similarArtists = function(artistId, callback){
         }
     });
 }
+
+
